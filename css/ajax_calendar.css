@@ -1,0 +1,81 @@
+#calback {
+	width: 98%;
+	margin:0 1% 10px 1%;
+}
+#cal_intro
+{
+	text-align:left;
+	font-size:.8em;
+	padding-bottom:5px;
+}
+.today {
+	color: #FFF;
+	text-decoration:none;
+	font-weight:bold;
+	font-family:tahoma;
+	font-size:0.7em;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+.cal {
+	background: #666;
+}
+
+.calhead {
+	width: 100%;
+	font-family:tahoma;
+	font-weight: bold;
+	color: #FFF;
+	font-size: 1.1em;
+	background: #666;
+	border: 0 none;
+}
+
+.calhead img {
+	border: none;
+}
+
+img.cal_link
+{
+	height:12px;
+	width:12px;
+	margin-right:2px;
+	border: none;
+}
+img.year_half
+{
+	width:7px;
+	height:10px;
+}
+.dayhead {
+	height: 25px;  
+	background: #EEE;
+}
+
+.dayhead td {
+	text-align: center;
+	font-family:tahoma;
+	font-size: .9em;
+	font-weight: bold;
+	color: #333;
+	text-shadow:0 1px 1px #fff;
+}
+
+.dayrow {
+	background: #FFF;
+	height: 30px;
+}
+
+.dayrow td {
+	text-shadow:0 1px 1px #fff;
+	width: 100px;
+	color: #555;
+	font-weight:normal;
+	font-size: .6em;
+	background-color:#f6f6f6;
+}
+td.en_day b:hover
+{
+cursor:default;
+}

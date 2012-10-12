@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+html,body{margin:0;padding:0;font-family:tahoma,verdana,arial,sans-serif;}
+div#body{width:100%;}
+div#top{background-color:#184D94;height:110px;padding-top:10px;border-bottom:2px #f6f6f6 solid;}
+div#top_inner{width:980px;}
+a#home{font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;color:#DDDDDD;font-weight:bold;text-decoration:none;float:left;margin:25px 0 0 15px;font-size:36px;}
+div#log{float:right;margin-right:15px;text-align:left;}
+table#log_table td{padding-left:3px;}
+label.login{padding-left:5px;font-size:.8em;color:#eee;text-shadow: 0 1px 1px #002C69;}
+label.keep{font-size:.8em;color:#C2D5E3;text-shadow: 0 1px 1px #002C69;}
+input.login{border:none!important;-webkit-box-shadow:0 0,inset 0 1px 1px #666;-moz-box-shadow:0 0,inset 0 1px 1px #666;box-shadow:0 0,inset 0 1px 1px #666;background-color:white;height:26px;width:160px;padding-left:4px;-webkit-padding-start:4px;-moz-padding-start:4px;outline:none;opacity:.8;-webkit-transition:opacity 1s;-moz-transition:opacity 1s;-o-transition:opacity 1s;margin-left:4px;}
+input.login:hover{opacity:.9;}
+input.login:focus{opacity:1.0;-webkit-transition:opacity 0s;-moz-transition:opacity 0s;-o-transition:opacity 0s;-webkit-box-shadow:0 0 15px #E5EDF2,inset 0 1px 1px #666;-moz-box-shadow:0 0 15px #E5EDF2,inset 0 1px 1px #666;box-shadow:0 0 15px #E5EDF2,inset 0 1px 1px #666;}
+input.ind_sub{margin-left:5px;height:30px;padding:0 10px 0 10px;border:1px #00357D solid;border-bottom:1px #002C69 solid;background-color:#3567A8;color:#fff;font-weight:bold;font-size:.8em;}
+input.ind_sub:active{background-color:#22569C;}
+input.check{position:relative;top:2px;}
+a.forget{margin-left:5px;color:#C2D5E3;text-decoration:none;font-size:.8em;text-shadow: 0 1px 1px #002C69;}
+a.forget:hover{text-decoration:underline;}
+div#bot{height:460px;backgournd: #7E9CC4;background: -webkit-gradient(radial, 30% 80%, 0, 30% 80%, 280, from(#E5EDF2), to(#7E9CC4));background: -moz-radial-gradient(30% 80%, circle, #E5EDF2 0px, #7E9CC4 280px);background: -o-radial-gradient(30% 80%, circle, #E5EDF2 0px, #7E9CC4 280px);background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #C2D5E3 10%, #7E9CC4 80%);background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #C2D5E3 10%, #7E9CC4 80%);background-image: -o-radial-gradient(center top, ellipse farthest-corner, #C2D5E3 10%, #7E9CC4 80%);background-image: -webkit-gradient(radial, center top, 0, center top, 567, color-stop(0, #C2D5E3), color-stop(1, #7E9CC4));background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #C2D5E3 10%, #7E9CC4 80%);background-image: radial-gradient(center top, ellipse farthest-corner, #C2D5E3 10%, #7E9CC4 80%);}
+div#bot_inner{width:980px;text-align:left;}
+div#reg{float:right;width:410px;}
+table#reg_table td.term{padding:10px 0 10px 0;}
+label.signup{padding-left:5px;font-size:1.2em;font-weight:bold;color:#666;text-shadow: 0 1px 1px #fff;}
+a#reg_link{font-size:.8em;font-weight:bold;color:#666;text-shadow: 0 1px 1px #fff;}
+label.regist{padding-left:5px;font-size:.9em;color:#444;}
+label.read{padding-left:5px;font-size:.8em;color:#444;}
+a.reg_term{color:#444;}
+input.regist{height:32px;width:253px;padding-left:4px;border:1px #184D94 solid;-webkit-box-shadow:0 0,inset 0 1px 1px #aaa;-moz-box-shadow:0 0,inset 0 1px 1px #aaa;box-shadow:0 0,inset 0 1px 1px #aaa;background-color:white;font-size:.9em;outline:none;}
+input.regist:focus{-webkit-box-shadow:0 0 20px white,inset 0 1px 1px #aaa;-moz-box-shadow:0 0 20px white,inset 0 1px 1px #aaa;box-shadow:0 0 20px white,inset 0 1px 1px #aaa;}
+a.down{color:#184D94;text-shadow: 0 1px 1px #fff;}
+div#reg_title{text-align:left;margin:30px 0 10px 0;}
+div#reg_sap{border-bottom:1px #aaa solid;margin-bottom:10px;}
+div#new{padding: 20px 0 0 20px;text-align:left;width:550px;}
+p#new_title{font-size:1.3em;font-weight:bold;color:#ddd;text-shadow: 0 1px 1px #002C69;}
+p#new_detail{line-height:1.5em;width:450px;font-weight:bold;font-size:.9em;opacity:.5;text-shadow: 0 1px 1px #fff;}
+div#detail_fn{margin-left:20px;color:#666;}
+ul{margin:30px 0 50px 0;text-shadow: 0 0 1px #fff;}
+h1{font-size:.9em;}

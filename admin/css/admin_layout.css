@@ -1,0 +1,85 @@
+@CHARSET "ISO-8859-1";
+div.path_nav
+{
+	position:relative;
+	right:7.3%;
+	#right:0%;
+}
+div.ad_sec_info
+{
+	margin-left:1%;
+	margin-top:8px;
+	margin-bottom:15px;
+	position:relative;
+	right:7.3%;
+	#right:0%;
+}
+div.ad_detail_info
+{
+	display:none;
+	margin-top:5px;
+	margin-left:8%;
+	margin-bottom:5px;
+	position:relative;
+	left:7.3%;
+	#left:0%;
+}
+div.stat_sec
+{
+	margin-top:20px;
+	text-align:center;
+}
+label.ad_sec_title
+{
+	font-weight:bold;
+	font-size:.8em;
+	color:#184D94;
+}
+label.ad_val_label
+{
+	color:#000060;
+	margin-left:5px;
+	font-size:.8em;
+}
+label.ad_dis_label
+{
+	font-weight:bold;
+	font-size:.8em;
+}
+select.role_list
+{
+	font-size:.8em;
+}
+input.date_pick
+{
+	background-color:white;
+	border:1px solid #AAA;
+}
+input.submit_button
+{
+	border:1px solid #AAA;
+	background:url(../../image/button/button_background.png) center;
+	font-weight:bold;
+	height:20px;
+	font-size:.8em;
+	width:100px;
+	margin-left:20px;
+}
+table#mem_list td
+{
+	padding-left:15px;
+}
+table#mem_list a
+{
+	text-decoration:none;
+	color:blue;
+	font-size:.8em;
+}
+td.td_sap
+{
+}
+a#mem_list_link
+{
+text-decoration:none;
+font-size:.8em;
+}

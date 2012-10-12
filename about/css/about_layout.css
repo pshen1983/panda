@@ -1,0 +1,86 @@
+@CHARSET "ISO-8859-1";
+input
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+}
+div.fd_mess_result
+{
+	text-align:left;
+	font-size:.8em;
+	margin-bottom:10px;
+	margin-top:20px;
+	height:12px;
+}
+div.about_body
+{
+	width:80%;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+div.about_head
+{
+	width:80%;
+	text-align:left;
+	margin-bottom:20px;
+}
+div.about_detail
+{
+	margin-top:30px;
+	margin-bottom:30px;
+	width:80%;
+	text-align:left;
+}
+div.about_detail p
+{
+	text-indent:2em;
+	color:#333;
+	font-size:.8em;
+	line-height:1.6em;
+}
+div.weak_sap
+{
+	width:90%;
+	border-top:1px solid #F3F3F3;
+}
+label.fd_disp_label
+{
+	font-size:.75em;
+}
+label.about_header
+{
+	font-size:.95em;
+	font-weight:bold;
+}
+input.fd_input_send
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+	height:1.8em;
+	#line-height:185%;
+	font-size:.8em;
+	width:560px;
+}
+input.button_input
+{
+	width:100px;
+	background:url(../../image/button/button_background.png) center;
+}
+form.fd_send_form
+{
+	width:80%;
+	margin-top:50px;
+	margin-bottom:80px;
+}
+textarea.fd_send
+{
+	border:1px solid #AAA;
+	width:560px;
+	height:150px;
+	margin-bottom:5px;
+}
+img.follow_logo
+{
+	width:60px;
+	height:60px;
+}

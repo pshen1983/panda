@@ -1,0 +1,127 @@
+div.selector
+{
+}
+div.display
+{
+	float:left;
+}
+img.roll
+{
+	border-style:solid;
+	border-width:1px;
+	margin-left:10px;
+	width:150px;
+	height:100px;
+}
+img#image_frame
+{
+	border-style:solid;
+	border-width:1px;
+	height:600px;
+	display:block;
+}
+embed#flvplayer
+{
+	width:600px;
+	height:400px;
+}
+div#doc_bro
+{
+	text-align:left;
+	margin-top:1%;
+	width:90%;
+	border:1px solid #AAA;
+}
+div#doc_bro_tree a
+{
+	text-decoration:none;
+	color:blue;
+}
+div#doc_bro_tree
+{
+	width:50%;
+	border-right:1px solid #AAA;
+	font-size:.9em;
+	#padding-left:2%;
+	#width:47%;
+}
+div#doc_bro_tree ul
+{
+	padding-left:15px;
+	margin-top:0px;
+	margin-bottom:0px;
+	#margin-left:0px;
+}
+div#doc_bro_tree li
+{
+	padding-top:5px;
+	list-style-type:none;
+}
+div#doc_bro_tree a
+{
+	text-decoration:none;
+	color:blue;
+}
+div#doc_bro_value
+{
+	padding-left:20px;
+	float:right;
+	width:48%;
+	#padding-top:2%;
+}
+div#doc_bro_value ul
+{
+	#margin-left:0px;
+}
+div#doc_bro_value li
+{
+	font-size:.9em;	
+	padding-left:0px;
+	padding-top:5px;
+	list-style-type:none;
+}
+div#doc_bro_value li.title
+{
+	font-weight:bold;
+	margin-left:5px;
+}
+div#doc_bro_value a
+{
+	text-decoration:none;
+	color:blue;
+}
+ul#tree_list
+{
+	margin-left:15px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+span.doc_bro_proj
+{
+	font-size:.8em;
+	color:green;
+}
+span.doc_bro_comp
+{
+	font-size:.8em;
+	color:#BBB;
+}
+span.doc_bro_wp
+{
+	font-size:.8em;
+	color:#666;
+}
+span.doc_bro_wi
+{
+	font-size:.8em;
+	color:#333;
+}
+span.work_level_span
+{
+	color:brown;
+	font-weight:bold;
+}
+a.doc_bro_doc_link:hover
+{
+	font-style:italic;
+}

@@ -1,0 +1,325 @@
+@CHARSET "ISO-8859-1";
+input
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+}
+div.invitation_table
+{
+	margin-top:1%;
+	width:960px;
+	border-bottom:1px solid #AAAAAA;
+}
+div.invitation_body
+{
+	width:56%;
+	border-top:1px solid #CCC;
+	border-left:1px solid #CCC;
+	border-right:2px solid #888;
+	border-bottom:2px solid #888;
+	display:none;
+	visibility:hidden;
+	margin-top:2px;
+	margin-bottom:5px;
+	text-align:left;
+	background-color:#F5F5F5;
+}
+div.invitation_body_message
+{
+	font-size:.9em;
+	word-wrap:break-word;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:5px;
+	margin-right:5px;
+	line-height:1.5em;
+}
+div.invitation_body_links
+{
+	font-size:.9em;
+}
+div.send_invite_div
+{
+	margin-top:5px;
+	text-align:left;
+}
+div.invitation_list_label
+{
+	text-align:left;
+	font-weight:bold;
+	color:#888;
+	padding-bottom:5px;
+	margin-bottom:15px;
+	border-bottom:1px solid #AAA;
+}
+div.invite_proj
+{
+	width:65%;
+	text-align:left;
+	margin-top:10px;
+	border:1px solid #AAAAAA;
+	background-color:#F7F7F7;
+}
+div.Invitation_header_label
+{
+	padding:20px 0px 10px 30px;
+	font-weight:bold;
+	color:#333;
+	font-size:1em;
+}
+div.self_form_div
+{
+	text-align:left;
+	padding-left:1%;
+	margin-top:10px;
+	width:60%;
+	border: 2px solid #CCC;
+}
+div#more_user_div
+{
+	padding-top:5px;
+}
+div.note_section
+{
+	width:68%;
+	text-align:left;
+	margin-top:20px;
+	border-top: 2px solid #AAA;
+}
+div.note_list_sec
+{
+	padding-top:10px;
+	padding-left:100px;
+}
+img.invitation_check_mark
+{
+	width:16px;
+	height:16px;
+}
+table.message_table_row
+{
+	text-align:left;
+	width:100%;
+	border-top:1px solid #AAAAAA;
+	display:block;
+}
+td.check
+{
+	width:25px;
+}
+td.from
+{
+	width:200px;
+}
+td.subject
+{
+	width:625px;
+}
+td.date
+{
+	width:150px;
+}
+td.invite_table_input_td
+{
+	width:476px;
+}
+a.table_row_link
+{
+	display:block;
+	text-decoration:none;
+	color:#184D94;
+	font-size:.9em;
+}
+label.invitation_body_label
+{
+	font-size:.9em;
+}
+label.unread_message_body_label
+{
+	font-weight:bold;
+	font-size:.9em;
+}
+label.invitation_body_label_date
+{
+	font-size:.9em;
+	color:#666666;
+}
+label.invitation_result_error
+{
+	background-color:#FFDDDD;
+	color:#184D94;
+	border:1px #FF0000 solid;
+	text-align:left;
+	position:relative;
+	bottom:-1px;
+	#bottom:1px;
+	font-size:.9em;
+	padding: 5px 5px 5px 5px;
+	text-shadow:0 1px 1px #fff;
+}
+label.invitation_result_info
+{
+	background-color:#DDFFDD;
+	color:#184D94;
+	border:1px #00FF00 solid;
+	text-align:left;
+	position:relative;
+	bottom:-1px;
+	#bottom:1px;
+	font-size:.9em;
+	padding: 5px 5px 5px 5px;
+	text-shadow:0 1px 1px #fff;
+}
+label.msn_label
+{
+	font-size:.8em;
+	display:block;
+}
+label.note_sec_title
+{
+	font-size:.9em;
+	color:black;
+	font-weight:bold;
+	margin-left:10px;
+}
+label.note_display
+{
+	color:#F66;
+	position:relative;
+	bottom:1px;
+	font-size:.9em;
+}
+span.invitation_result_span
+{
+	margin-left:5px;
+}
+span.invitation_title_span
+{
+	font-weight:bold;
+	color:#555;
+}
+span.invitation_result_email_size
+{
+	font-size:.85em;
+}
+span.invitation_result_red
+{
+	color:red;
+}
+form.invite_form 
+{
+	padding:20px 0px 20px 30px;
+	#padding:0px 0 20px 30px;
+}
+form.invite_form input.textfield
+{
+	border:1px solid #AAA;
+	padding:4px;
+	height:20px;
+}
+form.create_note
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+input.invite_email_input
+{
+	width:200px;
+}
+input#more_user_botton
+{
+	font-size:.8em;
+	height:20px;
+	padding:0 5px 0 5px;
+	background:url(../../image/button/button_background.png) center;
+}
+input.search_submit_button
+{
+	width:100px;
+	font-weight:bold;
+	height:20px;
+	background:url(../../image/button/button_background.png) center;
+}
+input.msn_get_button
+{
+	width:120px;
+	height:20px;
+	background:url(../../image/button/button_background.png) center;
+}
+input.subject_input
+{
+	width: 89%;
+	height:20px;
+	margin-bottom:10px;
+}
+input.note_un_check
+{
+	width:19px;
+	height:25px;
+	border:0 none;
+	padding-top:4px;
+	margin-right:5px;
+    background: url(../../image/checkbox.png) no-repeat 0px 0px;
+}
+input.note_check
+{
+	width:19px;
+	height:25px;
+	border:0 none;
+	padding-top:4px;
+	margin-right:5px;
+    background: url(../../image/checkbox.png) no-repeat 0px -50px;
+}
+input.invi_link
+{
+	border:0 none;
+	background:url(../../image/button/button_background.png) center;
+	width:176px;
+	margin-right:10px;
+	height:20px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+input.mess_link
+{
+	border:0 none;
+	margin-right:10px;
+	background:url(../../image/button/button_background.png) center;
+	width:76px;
+	height:20px;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+textarea.description
+{
+	border:1px solid #AAA;
+	width:98%;
+	height:50px;
+	margin-bottom:5px;
+}
+a.note_sec_title_link
+{
+	text-decoration:none;
+	font-size:.9em;
+	color:black;
+	font-weight:bold;
+	margin-left:10px;" 
+}
+a.back_invi
+{
+	color:blue;
+	font-size:.8em;
+	text-decoration:none;
+}
+a.back_invi:link
+{
+	text-decoration:none;
+}
+a.back_invi:hover
+{
+	text-decoration:underline;
+}
+label.highlight
+{
+color:red;
+}

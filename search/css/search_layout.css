@@ -1,0 +1,243 @@
+@CHARSET "ISO-8859-1";
+input
+{
+	border:1px solid #AAA;
+	height:26px;
+	padding-left:4px;
+}
+input.search_submit_button
+{
+	width:100px;
+	font-weight:bold;
+	height:20px;
+	background:url(../../image/button/button_background.png) center;
+}
+input.search_input
+{
+	width:200px;
+}
+input#doc_name
+{
+	width:400px;
+}
+div.domain_link
+{
+	margin-top:1%;
+	margin-bottom:5px;
+	height:40px;
+	width:100%;
+	background-image:url('../../image/search/header_background_normal.png');
+	background-repeat:repeat-x;
+}
+div.sec_info
+{
+	margin-left:1%;
+	margin-top:8px;
+	margin-bottom:15px;
+}
+ul.domain_link_contain
+{
+	height:100%;
+	width:95%;
+}
+div#search_result
+{
+	width:960px;
+}
+table.search_result_header
+{
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#AAAAAA;
+	font-size:.8em;
+	text-align:center;
+}
+div.search_result_row
+{
+	font-size:.8em;
+	text-align:left;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:10px;
+	border-bottom:1px solid #AAAAAA;
+	width:600px;
+}
+div.workitem_search_div
+{
+	border:1px solid #AAA;
+	padding:10px 20px 10px 20px;
+	background-color:#f8f8f8;
+	text-shadow: 0 1px 1px #fff;
+}
+div.detail_info
+{
+	margin-top:5px;
+	margin-left:8%;
+	margin-bottom:5px;
+}
+div.main_content
+{
+	text-align:left;
+	width:60%;
+	margin-top:20px;
+}
+table.search_result_row td
+{
+	font-size:.8em;
+	padding-left:5px;
+}
+table.workitem_search_table input#id_input
+{
+	width:60px;
+}
+table.workitem_search_table input#objective_input
+{
+	width:465px;
+}
+table.workitem_search_table select#owner, select#creator
+{
+	width:470px;
+}
+table.workitem_search_table select#component
+{
+	width:200px;
+}
+table.workitem_search_table select#workpackage
+{
+	width:200px;
+}
+table.workitem_search_table select#status
+{
+	width:85px;
+}
+table.workitem_search_table select#type
+{
+	width:85px;
+}
+table.workitem_search_table select#priority
+{
+	width:85px;
+}
+table.workitem_search_table select#priority
+{
+	width:85px;
+}
+table.doc_search_table
+{
+	text-align:left;
+}
+table.doc_search_table select#project
+{
+	width:400px;
+}
+table.doc_search_table select#owner
+{
+	width:400px;
+}
+table.doc_search_table select#component
+{
+	width:200px;
+}
+table.doc_search_table select#workpackage
+{
+	width:200px;
+}
+table.doc_search_table select#workitem
+{
+	width:200px;
+}
+td.td_info_label
+{
+	text-align:right;
+}
+li.selected
+{
+	background-image:url('../../image/search/header_background_select.png');
+	background-repeat:repeat-x;
+}
+li.link_elem
+{
+	display:block;
+	float:left;
+	height:100%;
+	width:18%;
+	list-style-type:none;
+}
+li.link_elem_sep
+{
+	float: left;
+	height:100%;
+	width:1px;
+	background-color: #AAAAAA;
+	list-style-type: none;
+}
+a.domain_link_elem
+{
+	display:block;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+}
+span.domain_link_label
+{
+	font-family:tahoma;
+	position:relative;
+	top:10px;
+	font-weight:bold;
+	#font-weight:normal;
+	color:black;
+}
+span.link_num
+{
+	margin-left:2px;
+	position:relative;
+	top:10px;
+	font-size:.7em;
+	font-weight:normal;
+	color:#888;
+}
+label.search_label
+{
+	font-size:.8em;
+}
+label.search_label_date
+{
+	font-size:.7em;
+}
+label.sec_title
+{
+	font-weight:bold;
+	font-size:.8em;
+	color:#184D94;
+}
+label.val_label
+{
+	color:#000060;
+	margin-left:5px;
+	font-size:.8em;
+}
+label.dis_label
+{
+	font-weight:bold;
+	font-size:.8em;
+}
+form#search_workitem
+{
+	text-align:left;
+}
+a#usr_msg
+{
+	margin-left:20px;
+	font-size:.8em;
+	color:#000;
+	text-decoration:none;
+}
+a#usr_msg span
+{
+	color:blue;
+	text-decoration:underline;
+}
+a#usr_msg span:active
+{
+	color:red;
+}

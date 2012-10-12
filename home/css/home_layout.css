@@ -1,0 +1,219 @@
+@CHARSET "ISO-8859-1";
+
+input
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+}
+img#sel_result
+{
+	margin-top:15px;
+	#margin-top:10px;
+	margin-left:40px;
+	width:100px;
+	height:100px;
+	border:2px solid orange;
+}
+div#first_time_form
+{
+	position:relative;
+	top:-250px;
+	background:white;
+	width:430px;
+	border: 1px solid orange;
+}
+div.top_back_link
+{
+	text-align:left;
+	margin-top:10px;
+	margin-left:10px;
+}
+div.cross_separator
+{
+	width:100%;
+	border-bottom:1px solid #AAA;
+}
+div.secure_err_div
+{
+	text-align:left;
+	margin-left:2px;
+	margin-bottom:2px;
+}
+input.upload_doc_button_input
+{
+	border:1px solid #AAA;
+	background:url(../../image/button/button_background.png) center;
+	font-weight:bold;
+	height:20px;
+	color:#333;
+	width:80px;
+}
+input.button_input
+{
+	margin-top:5px;
+	border:1px solid #AAA;
+	background:url(../../image/button/button_background.png) center;
+	font-weight:bold;
+	height:20px;
+	font-size:.8em;
+	width:100px;
+}
+input.prof_input_t
+{
+	width:450px;
+	height:1.8em;
+	#line-height:185%;
+}
+input.prof_input_n
+{
+	width:45px;
+	height:1.8em;
+	#line-height:185%;
+}
+input.prof_input_p
+{
+	width:200px;
+	height:1.8em;
+	#line-height:185%;
+}
+select.educ_select
+{
+	width:120px;
+}
+input.educ_input_t
+{
+	width:250px;
+	height:26px;
+	#line-height:145%;
+}
+input.educ_input_n
+{
+	width:50px;
+	height:1.4em;
+	#line-height:145%;
+}
+select.empl_select
+{
+	width:80px;
+}
+input.empl_input_t
+{
+	width:250px;
+	height:26px;
+	#line-height:165%;
+}
+label.info_label
+{
+	font-size:.8em;
+	font-weight:bold;
+}
+label.err_info
+{
+	color:red;
+	font-size:.8em;
+}
+label.success_info
+{
+	color:green;
+	font-size:.8em;
+}
+div.secure_title
+{
+	text-align:left;
+	font-size:.9em;
+	font-weight:bold;
+	color:#666;
+	margin-left:10px;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+div.secre_question_top
+{
+	margin-top:10px;
+	font-size:.8em;
+	color:#184D94;
+}
+div.add_more
+{
+	font-size:.8em;
+	text-align:left;
+	margin-left:5px;
+}
+div.add_more a
+{
+	color:blue;
+}
+div.educ_resu
+{
+	margin-top:10px;
+	margin-bottom:3px;
+	text-align:left;
+	margin-left:102px;
+}
+div.empl_resu
+{
+	margin-top:10px;
+	margin-bottom:3px;
+	text-align:left;
+	margin-left:102px;
+}
+div.sec_info
+{
+	margin-left:1%;
+	margin-top:8px;
+	margin-bottom:15px;
+}
+div.detail_info
+{
+	margin-top:5px;
+	margin-left:8%;
+	margin-bottom:5px;
+}
+form#create_profile_form
+{
+	margin-bottom:15px;
+}
+label.dis_label
+{
+	font-weight:bold;
+	font-size:.8em;
+}
+label.sec_title
+{
+	font-weight:bold;
+	font-size:.8em;
+	color:#184D94;
+}
+label.val_label
+{
+	color:#000060;
+	margin-left:5px;
+	font-size:.8em;
+}
+a.back_profile
+{
+	color:blue;
+	font-size:.8em;
+	text-decoration:none;
+}
+a.back_profile:link
+{
+	text-decoration:none;
+}
+a.back_profile:hover
+{
+	text-decoration:underline;
+}
+table.educ
+{
+	margin-bottom:10px;
+	#margin-bottom:0px;
+}
+td.td_info_input
+{
+	text-align:left;
+}
+td.td_info_label
+{
+	text-align:right;
+}

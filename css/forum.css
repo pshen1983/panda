@@ -1,0 +1,329 @@
+@CHARSET "ISO-8859-1";
+img.imgsep
+{
+margin-right:2px;
+}
+div#forumtitle
+{
+margin:25px 0 20px 0;
+width:860px;
+text-align:left;
+}
+span.black
+{
+color:#000;
+}
+div.repdiv
+{
+float:right;
+}
+div#forumtitle h1
+{
+font-size:1em;
+}
+xmp
+{
+line-height:1.3em;
+}
+.margin1050
+{
+margin:10px 50px 10px 50px;
+}
+a.logrep
+{
+padding:10px 80px 10px 80px;
+border:1px #00357D solid;
+border-bottom:1px #002C69 solid;
+background-color:#3567A8;
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+}
+a.logrep:hover
+{
+cursor:pointer;
+}
+a.logrep:active
+{
+background-color:#184D94;
+}
+table#forumtable
+{
+width:860px;
+margin-bottom:100px;
+}
+table#forumtable th
+{
+height:31px;
+color:#fff;
+margin-left:10px;
+font-size:.9em;
+background-color:#3567A8;
+}
+table#forumtable .first
+{
+padding-left:20px;
+text-align:left;
+}
+table#forumtable .first label
+{
+color:#666;
+}
+table#forumtable .second
+{
+text-align:center;
+width:120px;
+}
+table#forumtable .third
+{
+text-align:center;
+width:120px;
+}
+table#forumtable .fourth
+{
+text-align:center;
+width:180px;
+}
+table#forumtable td
+{
+height:80px;
+font-size:.8em;
+border-bottom:1px #aaa dashed;
+background-color:#eeeeff;
+text-shadow:0 1px 1px #fff;
+}
+a.slink
+{
+font-size:1.1em;
+line-height:2em;
+color:blue;
+text-shadow: 0 1px 0 #fff;
+}
+div#flink
+{
+margin:5px;
+width:860px;
+text-align:left;
+font-size:.8em;
+color:#666;
+}
+div#flink a.f
+{
+color:blue;
+text-decoration:none;
+}
+div#flink a.f:hover
+{
+text-decoration:underline;
+}
+a.newthr
+{
+padding:5px 20px 5px 20px;
+text-decoration:none;
+border:1px #214D00 solid;
+border-bottom:1px #1B4000 solid;
+background-color:#59942C;
+color:#fff;
+margin-right:5px;
+font-weight:bold;
+}
+a.newthr:hover {
+cursor:pointer;
+}
+a.newthr:active {
+background-color:#468517;
+}
+table#threadtable
+{
+width:860px;
+}
+table#threadtable th
+{
+height:31px;
+color:#fff;
+margin-left:10px;
+font-size:.9em;
+background-color:#3567A8;
+}
+table#threadtable .zero
+{
+width:30px;
+text-align:center;
+}
+table#threadtable .first
+{
+padding-left:5px;
+text-align:left;
+}
+table#threadtable .first label
+{
+color:#666;
+}
+table#threadtable .second
+{
+text-align:center;
+width:100px;
+}
+table#threadtable .third
+{
+text-align:center;
+width:120px;
+}
+table#threadtable .fourth
+{
+text-align:center;
+width:120px;
+}
+table#threadtable tr:hover
+{
+background-color:#f6f6f6;
+}
+table#threadtable img
+{
+border:0 none;
+}
+table#threadtable td
+{
+height:50px;
+font-size:.8em;
+border-top:1px #fff dashed;
+background-color:#eef;
+text-shadow:0 1px 1px #fff;
+}
+table#ntoptable
+{
+width:860px;
+margin-bottom:80px;
+}
+table#ntoptable th
+{
+height:31px;
+color:#fff;
+margin-left:10px;
+font-size:.8em;
+background-color:#3567A8;
+text-align:left;
+}
+table#ntoptable .first
+{
+padding-left:10px;
+padding-right:10px;
+}
+table#ntoptable .right
+{
+text-align:right;
+}
+table#ntoptable .middle
+{
+text-align:center;
+}
+table#ntoptable td
+{
+background-color:#f6f6f6;
+font-size:.8em;
+}
+table#ntoptable .content
+{
+border:1px #7E9CC4 solid;
+padding-left:4px;
+margin:10px;
+}
+table#ntoptable .empty
+{
+color:#FF0000;
+}
+table#ntoptable input#subj
+{
+width:600px;
+height:26px;
+}
+table#ntoptable textarea#cont
+{
+white-space:nowrap;
+width:600px;
+}
+table#ntoptable .contheight
+{
+height:300px;
+}
+table.messagetable
+{
+width:860px;
+background-color:#C2D5E3;
+}
+table.messagetable th
+{
+padding-left:10px;
+height:40px;
+text-align:left;
+background-color:#E5EDF2;
+text-shadow:0 1px 1px #fff;
+color:#444;
+font-size:.9em;
+}
+table.messagetable .first
+{
+padding-right:10px;
+width:120px;
+font-weight:normal;
+font-size:.8em;
+color:#888;
+background-color:#E5EDF2;
+text-align:center;
+}
+table.messagetable div.tdbody
+{
+margin-top:10px;
+min-height:160px;
+}
+table.messagetable div.messhead
+{
+width:98%;
+border-bottom:1px #aaa dashed;
+font-size:.8em;
+color:#888;
+padding-bottom:5px;
+}
+table.messagetable div.messbody
+{
+word-wrap:break-word;
+line-height:1.3em;
+max-width:695px;
+}
+table.messagetable div.repdiv a
+{
+color:blue;
+cursor:pointer;
+padding-right:10px;
+}
+table.messagetable div.repdiv a:hover
+{
+text-decoration:underline;
+}
+table.messagetable img.proimg
+{
+border:2px #fff solid;
+width:100px;
+margin-bottom:20px;
+}
+table.messagetable textarea#reply
+{
+white-space:nowrap;
+margin-top:10px;
+height:160px;
+width:600px;
+border:1px #ccc inset;
+padding:4px;
+}
+table.messagetable td
+{
+padding-left:10px;
+text-align:left;
+height:160px;
+background-color:#f6f6ff;
+text-shadow:0 1px 1px #fff;
+}
+form#reply
+{
+margin-bottom:5px;
+}

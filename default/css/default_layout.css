@@ -1,0 +1,333 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	font-family:tahoma
+}
+a
+{
+color:blue;
+}
+a.ital:hover {font-style:italic;}
+form a#forget_password
+{
+	font-size:11px;
+	margin-left:10px;
+}
+form label.reg_label
+{
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	color:#454545;
+	line-height:1;
+}
+form input.reg_input
+{
+	border:1px solid #AAA;
+	width:170px;
+}
+form label#reg_check_code
+{
+	padding-top:5px;
+}
+form a#reg_different_check_code
+{
+	font-size:11px;
+	margin-top:3px;
+	float:right;
+	margin-right:25px;
+}
+div#login_auth
+{
+	background-color:#F7F7F7;
+	width:700px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#AAAAAA;
+	text-align:left;
+	margin-top:60px;
+	margin-bottom:2%;
+}
+div#login_err_board
+{
+	text-align:center;
+	background-color:#FFDDDD;
+	width:698px;
+	#width:695px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#FF0000;
+	position:relative;
+	top:55px;
+	font-size:.8em;
+	color:#666;
+}
+div#login_info_board
+{
+	text-align:center;
+	background-color:#DDFFDD;
+	height:35px;
+	width:698px;
+	#width:695px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#00FF00;
+	margin-top:1%;
+	margin-bottom:-.8%;
+	position:relative;
+	top:45px;
+}
+div#login_message_sperator
+{
+	width:690px;
+	margin-top:5px;
+	#margin-top:-14px;
+}
+div#login_form_saperator
+{
+	border-top:1px solid #AAAAAA;
+	margin-right:35px;
+	margin-top:10px;
+}
+div#login_form_info
+{
+	margin-left:18%;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+form label#login_password_label
+{
+	padding-right:10px;
+	margin-top:10px;
+}
+form#login_form
+{
+	margin-left:35px;
+	margin-top:25px;
+}
+form label#keep_login_label
+{
+	font-size:12px;
+	color:#000;
+	position:relative;
+	bottom:2px;
+	#bottom:0px;
+}
+form input#login_keep_login
+{
+	border:0px none;
+	padding-left:2px;
+	margin-left:0px;
+	#margin-left:-3px;
+}
+
+form input.login_form_input
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+	width:280px;
+	height:26px;
+	background-color:#FFFBC1;
+	#line-height:185%;
+	font-size:.8em;
+}
+form input#loginemail
+{
+	padding-left:2px;
+	border:1px solid #AAA;
+	font-weight:bold;
+}
+form input#loginpasswd
+{
+	border:1px solid #AAA;
+	margin-top:10px;
+}
+form input.forget_pass_check
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+	font-size:16px;
+	width:60px;
+	height:27px;
+	background-color:#FFFBC1;
+	margin-top:10px;
+	position:relative;
+	top:-3px;
+	#top:0px;
+	#line-height:160%;
+}
+form label.login_form_label
+{
+	font-weight:normal;
+	font-size:12px;
+	color:#454545;
+	line-height:1;
+}
+form label.forget_pass
+{
+	font-weight:normal;
+	font-size:12px;
+	color:#454545;
+	line-height:1;
+}
+label span.login_message_color_red
+{
+	color:#FF0000;
+}
+label b.title_logo
+{
+	font-size:16px;
+}
+div#reg_message_board
+{
+	background-color:#FFDDDD;
+	width:658px;
+	#width:660px;
+	height:40px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#FF0000;
+	position:relative;
+	top:55px;
+}
+div label#reg_message_body
+{
+	position:relative;
+	top:25%;
+	font-size:16px;
+	font-weight:bold;
+	font-size:.9em;
+	color:#666;
+}
+label span.reg_message_color_red
+{
+	color:#FF0000;
+}
+div#reg_message_saperator
+{
+	width:700px;
+	position:relative;
+	margin-top:5px;
+	#margin-top:-14px;
+}
+div#reg_auth
+{
+	background-color:#F7F7F7;
+	width:660px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#AAAAAA;
+	text-align:left;
+	margin-top:60px;
+	margin-bottom:2%;
+	
+}
+div form#reg_form
+{
+	margin-left:35px;
+	margin-top:25px;
+}
+div#reg_form_saperator
+{
+	border-top:1px solid #AAAAAA;
+	margin-right:35px;
+	margin-top:10px;
+}
+div#reg_form_body
+{
+	margin-left:10px;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+td.label_td
+{
+	text-align:right;
+}
+form label.reg_form_label
+{
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	color:#454545;
+}
+form label#emailerror
+{
+	background-color:#FFDDDD;
+	border:1px #FF0000 solid;
+	color:#555;
+	padding:2px;
+	text-align:left;
+	position:relative;
+	left:5px;
+	#bottom:3px;
+	visibility:hidden;
+}
+form span#emailerrormessage
+{
+	margin-left:3px;
+	margin-right:3px;
+	font-size:13px;
+	font-weight:bold
+}
+form input.reg_form_input
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+	width:54%;
+	height:26px;
+	#line-height:170%;
+	font-size:.8em;
+}
+form input#check
+{
+	border:1px solid #AAA;
+	padding-left:2px;
+	font-size:16px;
+	width:60px;
+	height:27px;
+	#line-height:160%;
+}
+form img#verifyPic
+{
+	margin-left:5px;
+	margin-bottom:-6px;
+	#margin-bottom:-3px;
+}
+form a#reg_form_diffrent_code
+{
+	font-size:12px;
+	margin-top:3px;
+	margin-right:25px;
+}
+form td#reg_form_email_input_td
+{
+	width:450px
+}
+label b.title_logo
+{
+	font-size:16px;
+}
+input#terms
+{
+margin-top:15px;
+}
+label#terms_l
+{
+	font-size:.8em;
+	color:#333;
+}
+a.terms_a
+{
+color:blue;
+text-decoration:none;
+}
+a.terms_a:hover
+{
+text-decoration:underline;
+}
+form#forget_pass
+{
+	margin:35px;
+	margin-top:50px;
+	margin-bottom:50px;
+}
