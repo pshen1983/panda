@@ -1,10 +1,12 @@
-package com.example.projnote_android;
+package com.projnote.android;
+
+import com.example.projnote_android.R;
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class Home extends Activity {
+public class ProjNote extends Activity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
